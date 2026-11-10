@@ -3,31 +3,61 @@
     padding: 0;
 }
 
-
-
 body {
-background-color: #fbbb72;
-background-size: 64px 64px;
+    background-color: #ffffff;
+    background-size: 64px 64px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+.pagetop {
+    display: flex;
+    background-color: #5BC0be;
 }
 
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 90%;
+}
 .navbar ul {
     list-style-type: none;
-    background-color: #9b2a86;
+    background-color: #5BC0be;
     /* crucial thing for creating a flex box on the page*/
     display: flex; 
     /* by default will turn everything into row*/
-    justify-content: center;
+    margin: 50 auto;
+    height: 45px; 
 
 }
 .navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 0 20px;
-    font-size: 1.5rem;
+    padding: 5px 35px;
+    font-size: 2.0rem;
     font-family: "Oswald", sans-serif;
 
 }
 .navbar a:hover {
-    background-color: #9b2a86;
-    color: rgb(224, 146, 223);
+    background-color: #7d2e68;
+    color: #78b3b2;
     }
+
+.headshotandtext {
+    display: flex
+}
+
+.bio {
+    width: 50rem;
+}
+
+.headshot {
+    
+}
