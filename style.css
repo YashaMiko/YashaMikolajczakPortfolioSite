@@ -40,24 +40,36 @@ body {
 .navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 5px 35px;
-    font-size: 2.0rem;
+    padding: 15px 35px;
+    font-size: 1.75rem;
     font-family: "Oswald", sans-serif;
 
 }
 .navbar a:hover {
-    background-color: #7d2e68;
-    color: #78b3b2;
+    background-color: #f37748;
+    color: #7d2e68;
     }
 
 .headshotandtext {
-    display: flex
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.nameandbio {
+    flex: 1;
 }
 
 .bio {
-    width: 50rem;
+    width: 43rem;
 }
 
 .headshot {
-    
+    flex: 0, 0, 300px;
+}
+
+.headshot img {
+    width: 100%;
+    height: auto;
+    display: block:
 }
