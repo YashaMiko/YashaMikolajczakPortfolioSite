@@ -25,7 +25,7 @@ body {
 }
 
 .navbar {
-    width: 90%;
+    width: 100%;
 }
 .navbar ul {
     list-style-type: none;
@@ -34,14 +34,20 @@ body {
     display: flex; 
     /* by default will turn everything into row*/
     margin: 50 auto;
-    height: 45px; 
+    height: 56px; 
+    padding: 0;
+}
 
+.navbar li {
+    display: flex;
 }
 .navbar a {
+    display: flex;
+    align-items: center;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 15px 35px;
-    font-size: 1.75rem;
+    padding: 15px 56.85px;
+    font-size: 1.5rem;
     font-family: "Oswald", sans-serif;
 
 }
@@ -62,14 +68,16 @@ body {
 
 .bio {
     width: 43rem;
+    font-size: 17px;
+    line-height: 19px;
 }
 
 .headshot {
-    flex: 0, 0, 300px;
+    flex: 200px;
 }
 
 .headshot img {
     width: 100%;
-    height: auto;
-    display: block:
+    display: block;
+
 }
