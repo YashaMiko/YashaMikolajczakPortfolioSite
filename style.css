@@ -69,7 +69,7 @@ body {
 .bio {
     width: 43rem;
     font-size: 17px;
-    line-height: 19px;
+    line-height: 25px;
 }
 
 .headshot {
@@ -80,4 +80,19 @@ body {
     width: 100%;
     display: block;
 
+}
+
+.contact {
+    text-align: left;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact p {
+margin: 0;
+font-family: National Park; 
+font-weight: 300;
+font-size: 20px;
 }
