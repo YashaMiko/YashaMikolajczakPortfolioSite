@@ -96,3 +96,25 @@ font-family: National Park;
 font-weight: 300;
 font-size: 20px;
 }
+
+.projects {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.article {
+    width: 320px; 
+    padding: 20px; 
+    border: 1px solid #c9c9c9;
+    margin-top: 20px;
+}
+
+.article img {
+    height: 240px;
+    width: 320px
+}
+
+.resumepdf {
+    display: flex;
+    justify-content: center;
+}
