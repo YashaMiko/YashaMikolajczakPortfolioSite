@@ -118,3 +118,21 @@ font-size: 20px;
     display: flex;
     justify-content: center;
 }
+
+.Construction {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.cats {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
